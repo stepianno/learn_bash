@@ -5,5 +5,5 @@ read;
 first=${REPLY%% *} last=${REPLY##* } middle=${REPLY#$first} middle=${middle%$last}
 echo "Your first name is: $first"
 echo "Your last name is: $last"
-echo "Your middle names are: $middle"
+echo "Your middle name is: $middle"
 }
